@@ -276,10 +276,12 @@ body {
 .hot-deal {
     width: 1440px;
     height: 449px;
-    /* border-radius: 8px; */
-    background: url(rectangle 9.png);
+    border-radius: 8px;
+    background: url('../Rectangle\ 9.png');
     background-repeat: no-repeat;
     background-position: center;
+    padding: 128px 241px;
+
 }
 
 .deal-title {
@@ -287,6 +289,7 @@ body {
     text-align: center;
     font-size: 40px;
     font-weight: 800;
+    padding-top: 80px;
 }
 
 .deal-description {
@@ -295,6 +298,44 @@ body {
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
+    padding: 0px 400px 48px;
+}
+
+.form-btn {
+    display: flex;
+}
+
+.sub-key {
+    width: 150px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #E55473;
+    border: 0px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    /* padding-left: 16px; */
+}
+
+.sub-key:hover {
+    color: #E55473;
+    background: #FFF;
+}
+
+.form {
+    width: 700px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FFF;
+    margin: 0px 16px 0px 287px
+}
+.input{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    font-weight: 400;
+    padding: 23px 513px 22px 22px;
 }
 
 /* footer */
