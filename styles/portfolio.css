@@ -184,12 +184,13 @@ body {
 }
 
 .offer {
-    width: 1922px;
+    width: 1500px;
     height: 620px;
     flex-shrink: 0;
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
-    margin: 128px 0px;
+    margin: 128px -200px 0px 200px;
+
 }
 
 .offer-title {
@@ -197,7 +198,7 @@ body {
     font-size: 40px;
     font-weight: 800;
     text-align: center;
-    padding: 230px 20px 0px 250px;
+    padding: 130px 20px 0px 50px;
 }
 
 .about-offer {
@@ -207,7 +208,7 @@ body {
     line-height: 30px;
     width: 594px;
     text-align: center;
-    padding: 0px 186px 52px 395px;
+    padding: 0px 186px 52px 150px;
 }
 
 .key-btn {
@@ -219,7 +220,7 @@ body {
     color: #FFF;
     font-size: 20px;
     font-weight: 700;
-    margin: 0px 0px 200px 603px;
+    margin: 0px 0px 200px 300px;
 }
 
 .key-btn:hover {
@@ -228,11 +229,11 @@ body {
 }
 
 .rose {
-    width: 318;
+    width: 318px;
     height: 420px;
     flex-shrink: 0;
     justify-content: center;
-    padding: 100px 429px 0px 0px;
+    padding: 100px 200px 0px 0px;
 }
 
 .media-title {
@@ -315,7 +316,6 @@ body {
     color: #FFF;
     font-size: 20px;
     font-weight: 700;
-    /* padding-left: 16px; */
 }
 
 .sub-key:hover {
@@ -370,4 +370,58 @@ body {
     font-size: 16px;
     font-weight: 400;
     padding: 20px 648px;
+}
+.customer{
+    background-color: burlywood;
+    width: 1920px;
+    height: 400px;
+    flex-shrink: 0;
+}
+.feedback{
+    color: black;
+    font-size: 48px;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 50px;
+}
+.comment{
+    color: #272727;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 30px;
+    width: 625px;
+    padding: 0px 648px; 
+}
+.feed-form{
+    width: 700px;
+    height: 100px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FFF;
+    margin: 0px 600px ;
+}
+.feed-form:hover{
+    color: aqua;
+}
+.f-input{
+    color: black;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 40px;
+}
+.save{
+    width: 100px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #E55473;
+    border: 0px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+}
+.save:hover{
+color: #E55473;
+background: #FFF;
 }
